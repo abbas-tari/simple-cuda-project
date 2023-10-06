@@ -3,7 +3,7 @@ Runtime API and Driver API examples
 
 Driver API example code based on code found at https://gist.github.com/tautologico/2879581
 
-# FATBIN assignment part
+# FATBIN part
 1. Ensure that you are in the driver_api folder
 
 2. nvcc -o matSumKernel.fatbin -fatbin matSumKernel.cu -lcuda
@@ -11,7 +11,7 @@ Driver API example code based on code found at https://gist.github.com/tautologi
 4. nvcc -o drivertest drivertest.o -lcuda
 5. ./drivertest > output-fatbin.txt
 
-# PTX assignment part
+# PTX part
 
 1. nvcc -o matSumKernel.ptx -ptx matSumKernel.cu -lcuda
 2. nvcc -o drivertest.o -c drivertest.cpp -lcuda
