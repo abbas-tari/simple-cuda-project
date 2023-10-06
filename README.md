@@ -20,7 +20,7 @@ Driver API example code based on code found at https://gist.github.com/tautologi
 
 Runtime API example code based on code found at https://gist.github.com/al-indigo/4dd93d48a2886db6b1ac
 
-#Runtime assignment part
+# Runtime part
 
 1. Ensure that you are in the runtime_api folder
 2. nvcc -o vector_add vector_add.cu
